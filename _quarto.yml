@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "A.N. Other's academic homepage (edit in _quarto.yml)"
+  title: "James Brock's academic homepage"
   navbar:
     left:
       - href: index.qmd
@@ -26,9 +26,6 @@ website:
       - icon: github
         text: Github
         url: https://github.com/IntelligentSystemsLaboratory
-      - icon: twitter
-        text: Twitter
-        url: https://twitter.com/Bristol_AI_CDT
       - icon: envelope
         text: "Email"
         url: mailto:ck22122@bristol.ac.uk
