@@ -19,7 +19,7 @@ website:
         text: Blog
   sidebar:
     style: "docked"
-    logo: "./images/user_image.png"
+    logo: "./images/prof_pic.jpeg"
     search: true
     collapse-level: 2
     contents:
@@ -28,7 +28,7 @@ website:
         url: https://github.com/IntelligentSystemsLaboratory
       - icon: envelope
         text: "Email"
-        url: mailto:ck22122@bristol.ac.uk
+        url: mailto:james.brock@bristol.ac.uk
       - text: "Google Scholar"
         url: https://scholar.google.com/citations?user=<google-scholar-user>
       - text: Pro-AI CDT
