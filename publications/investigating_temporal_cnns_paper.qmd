@@ -1,12 +1,27 @@
 ---
 title: "Investigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification"
 title-block-banner: true
-date: 13-04-2022
-author-title: James Brock, Zahraa Abdallah
+date: 2022-04-13
+
+author:
+  - name: James Brock
+    affiliations:
+    - name: University of Bristol
+      department: Faculty of Engineering Maths
+      email: james.brock@bristol.ac.uk
+  - name: Zahraa Abdallah
+    affiliations:
+    - name: University of Bristol
+      department: Faculty of Engineering Maths
+      email: zahraa.abdallah@bristol.ac.uk
+
+abstract: |
+  Satellite Image Time Series (SITS) of the Earth's surface provide detailed land cover maps, with their quality in the spatial and temporal dimensions consistently improving. These image time series are integral for developing systems that aim to produce accurate, up-to-date land cover maps of the Earth's surface. Applications are wide-ranging, with notable examples including ecosystem mapping, vegetation process monitoring and anthropogenic land-use change tracking. Recently proposed methods for SITS classification have demonstrated respectable merit, but these methods tend to lack native mechanisms that exploit the temporal dimension of the data; commonly resulting in extensive data pre-processing contributing to prohibitively long training times. To overcome these shortcomings, Temporal CNNs have recently been employed for SITS classification tasks with encouraging results. This paper seeks to survey this method against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature. Comprehensive experiments are carried out on two benchmark SITS datasets with the results demonstrating that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets, achieving accuracies of 95.0\% and 87.3\% respectively. Investigations into the Temporal CNN architecture also highlighted the non-trivial task of optimising the model for a new dataset.
+
 ---
 
-This pre-paper seeks to survey Temporal Convolutional Neural Networks against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature, and demonstrates that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets.
+This pre-print paper seeks to survey Temporal Convolutional Neural Networks against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature, and demonstrates that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets.
 
 This paper comprises part of my Master's thesis, excluding my investigation into Transfer Learning. 
 
-Satellite Image Time Series (SITS) of the Earth's surface provide detailed land cover maps, with their quality in the spatial and temporal dimensions consistently improving. These image time series are integral for developing systems that aim to produce accurate, up-to-date land cover maps of the Earth's surface. Applications are wide-ranging, with notable examples including ecosystem mapping, vegetation process monitoring and anthropogenic land-use change tracking. Recently proposed methods for SITS classification have demonstrated respectable merit, but these methods tend to lack native mechanisms that exploit the temporal dimension of the data; commonly resulting in extensive data pre-processing contributing to prohibitively long training times. To overcome these shortcomings, Temporal CNNs have recently been employed for SITS classification tasks with encouraging results. This paper seeks to survey this method against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature. Comprehensive experiments are carried out on two benchmark SITS datasets with the results demonstrating that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets, achieving accuracies of 95.0\% and 87.3\% respectively. Investigations into the Temporal CNN architecture also highlighted the non-trivial task of optimising the model for a new dataset.
+[Link to paper](https://arxiv.org/abs/2204.08461)

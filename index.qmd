@@ -1,12 +1,12 @@
 ---
 title: "My research in Practice-Oriented Artificial Intelligence"
-author: "A.N. Other (edit at the top of index.qmd)"
+author: "James Brock"
 ---
 
 My name is {{< meta author >}} and I am a PhD student at the {{< var cdt-full >}}. 
 This is my professional website where I describe my main research area, ongoing projects, publications, and other AI-related activities. 
 
-{{< var todo >}}
+I am interested in researching AI solutions for ecological domain related applications, such as wildlife monitoring, predictions and remote sensing. In this capacity, I'd like to expand my interest in machine learning techniques that can reduce the need for labelled training data whilst maintaining respectable accuracy to reduce the costs of applying AI for solving environmental problems.
 
 ---
 
