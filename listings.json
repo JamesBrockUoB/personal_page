@@ -24,7 +24,8 @@
     "listing": "/publications.html",
     "items": [
       "/publications/paper2.html",
-      "/publications/paper.html"
+      "/publications/paper.html",
+      "/publications/investigating_temporal_cnns_paper.html"
     ]
   }
 ]
