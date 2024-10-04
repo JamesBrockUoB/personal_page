@@ -27,5 +27,11 @@
       "/publications/paper.html",
       "/publications/investigating_temporal_cnns_paper.html"
     ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/transformers_discussion_group/transformers_discussion_group.html"
+    ]
   }
 ]

@@ -7,11 +7,18 @@
     "text": "Here I collect my blog posts about current issues in AI research.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother blogpost example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "events/NeurIPS24.html",
-    "href": "events/NeurIPS24.html",
-    "title": "2024 Neural Information Processing Conference",
+    "objectID": "events/BIAS25.html",
+    "href": "events/BIAS25.html",
+    "title": "BIAS 2025 Summer School",
     "section": "",
-    "text": "I was fortunate to present my work at a NeurIPS’24 workshop.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "text": "I was a member of the organising committee for the annual Bristol Interactive AI Summer School.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "presentations/transformers_discussion_group/transformers_discussion_group.html#tomhanks",
+    "href": "presentations/transformers_discussion_group/transformers_discussion_group.html#tomhanks",
+    "title": "Transformers",
+    "section": "T(om)hanks",
+    "text": "T(om)hanks"
   },
   {
     "objectID": "index.html",
@@ -98,10 +105,17 @@
     "text": "I have (co-)authored the following workshop, conference and journal papers. Click through to find out more and see a full citation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Case Study in Practice-Oriented Artificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Methodology for Practice-Oriented AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification\n\n\n\n\n\nSatellite Image Time Series (SITS) of the Earth’s surface provide detailed land cover maps, with their quality in the spatial and temporal dimensions consistently improving. These image time series are integral for developing systems that aim to produce accurate, up-to-date land cover maps of the Earth’s surface. Applications are wide-ranging, with notable examples including ecosystem mapping, vegetation process monitoring and anthropogenic land-use change tracking. Recently proposed methods for SITS classification have demonstrated respectable merit, but these methods tend to lack native mechanisms that exploit the temporal dimension of the data; commonly resulting in extensive data pre-processing contributing to prohibitively long training times. To overcome these shortcomings, Temporal CNNs have recently been employed for SITS classification tasks with encouraging results. This paper seeks to survey this method against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature. Comprehensive experiments are carried out on two benchmark SITS datasets with the results demonstrating that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets, achieving accuracies of 95.0% and 87.3% respectively. Investigations into the Temporal CNN architecture also highlighted the non-trivial task of optimising the model for a new dataset. \n\n\n\n\n\nApr 13, 2022\n\n\nJames Brock, Zahraa Abdallah\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "events/BIAS25.html",
-    "href": "events/BIAS25.html",
-    "title": "BIAS 2025 Summer School",
+    "objectID": "events/NeurIPS24.html",
+    "href": "events/NeurIPS24.html",
+    "title": "2024 Neural Information Processing Conference",
     "section": "",
-    "text": "I was a member of the organising committee for the annual Bristol Interactive AI Summer School.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "text": "I was fortunate to present my work at a NeurIPS’24 workshop.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "AI-Related Presentations",
+    "section": "",
+    "text": "Click on one of the headers below to find out about AI-related presentations I have developed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
