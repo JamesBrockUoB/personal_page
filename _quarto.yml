@@ -17,6 +17,8 @@ website:
         text: Events
       - href: blog.qmd
         text: Blog
+      - href: presentations.qmd
+        text: Presentations
   sidebar:
     style: "docked"
     logo: "./images/prof_pic.jpeg"

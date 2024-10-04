@@ -1,0 +1,258 @@
+---
+title: "Transformers"
+format:
+  revealjs: 
+    theme: sky
+---
+
+::: {.fragment .fade-in-then-out}
+![](optimus_prime.jpg){.absolute top=0 left=300 width="400" height="750"}
+:::
+
+::: {.fragment }
+![](The-transformer-model-architecture.png){.absolute top=0 left=125}
+:::
+
+---
+
+### Transformers
+
+::: {.incremental}
+- Introduced in 2017
+- Originally intended for NLP tasks such as:
+  - Machine translation
+  - Text summarisation
+  - Question answering
+  - Sentinment analysis
+  - Language modelling
+- Now has applications in nearly every ML domain
+:::
+
+---
+
+### The before times, a quick recap
+
+:::{.fragment .absolute top="10%" left="25%" width="500" height="350"}
+![](lstm-model.png){}
+:::
+
+:::{.fragment .absolute top="50%"}
+- RNNs, LSTMs, and GRUs for modelling sequential data
+- Introduced for NLP and then used in other domains
+- Relies on sequential nature of data to extract meangings
+- Requires purposeful and meanginful embeddings
+:::
+
+---
+
+### Persistant issues
+
+:::{.fragment .fade-in-then-out .absolute left="25%" top="10%"}
+![](emoji-disintegrating.gif)
+:::
+
+:::{.fragment .absolute top="25%"}
+- Long sequences presented challenges - vanishing/exploding gradients
+- Bidirectionality helped, but increased complexity and not suitable for every task
+- Hard to parallelise, slow to train, tends to overfit
+- Black box interpretability, lots of internal components
+:::
+
+---
+
+### Transformers fundamentals
+
+::::{.columns}
+:::{.column width="40%"}
+![](The-transformer-model-architecture.png){.absolute width=300 height=400 top="25%"}
+:::
+
+:::{.column width="60%" .nonincremental .r-fit-text}
+Two-part network with an encoder to generate representations of the embdedded data, and a decoder to generate the output sequence
+
+Combines:
+
+- Input embeddings
+- Positional encoding
+- Multi-head self attention
+- Layer normalisation and residual connections
+- Feed-forward neural networks
+- Stacked layers
+- Output layer
+
+Does not process inputs sequentially, so training and inference can be done in parallel
+
+This allows for much longer sequences to be processed without fear of degradation
+
+:::
+::::
+
+---
+
+### The primary innovations
+
+:::{.r-fit-text}
+1. Self-attention
+    - Calculates weights for every word in a sentence as they relate to every other word in the input
+    - Uses three linear transformations (query, key, value) and a softmax function, maintaining input dimensionality
+    - Can learn the rules of grammar based on statistical probabilities of how words are typically used
+    - Parallel weighing of the importance of different input elements relevance to each other=
+    - Using multiple heads allows for each head to learn different features
+
+$$
+Attention(Q,K,V) = (\frac{Q . K^T}{\sqrt(d_k)}) . V
+$$
+$$
+MultiHeadAttn(Q,K,V) = (head_1,...,head_H)W^O
+$$
+$$
+where
+$$
+$$
+head_i = Attention(QW^Q_i,KW^K_i,VW^V_i)
+$$
+
+:::
+
+---
+
+### The primary innovations
+
+:::{.r-fit-text}
+
+2. Positional encoding 
+    - Order of words in relations to others is important
+    - Need to encode this - must be unique, consistent distance between positions, deterministic, generalise to longer sentences
+    - D-dimensional vector containing information about a specific position in a sentence
+    - Sinusoidal function employed to calculate the encoding that isn't integrated with the model itself
+
+$$
+PE(pos,2i) = sin sin (\frac{pos}{10000^\frac{2i}{d_{model}}})
+$$
+
+$$
+PE(pos,2i + 1) = cos (\frac{pos}{10000^\frac{2i}{d_{model}}})
+$$
+:::
+
+---
+
+### A quick graphical overview
+
+![](attention-overview.webp)
+
+---
+
+### Applications
+
+::::{.columns}
+:::{.column width="50%" .nonincremental}
+
+- NLP
+- Computer Vision
+- Multi-modality
+- Audio & Speech processing
+:::
+
+:::{.column width="50%" .nonincremental}
+- Signal processing
+- Robotics & Reinforcement learning
+- Biological sequence analysis
+- Pre-trained models
+:::
+::::
+
+Any interesting tasks specifically people have heard of?
+
+What tasks allow for encoders and decoders to be used separately?
+
+--- 
+
+### Developments beyond the original transformer
+
+
+![](transformer_evolution.webp){.r-stretch .absolute left="25%"}
+
+---
+
+### A zoom in: Text-video embedding in a challenging data space
+:::{.r-fit-text}
+Paper proposes a Mixture-of-Embedding-Experts (MEE) model that learns a joint text-video embedding.
+
+Handles heterogenous data and missing input modalities during training and testing.
+
+:::
+
+::::{.columns}
+:::{.columns .r-fit-text}
+- Model learns to combine multiple input streams of video descriptors and textual input to compute a similarity score
+- Handles appearance, motion, sound, \
+facial descriptors
+- Gated embedding module to transform the \
+input features into a new feature space
+- Videos augmented with COCO images
+- Outperforms SATA on multiple datasets
+:::
+
+:::{.columns .absolute width=500 top="45%" right="0%"}
+![](MEE_model.png)
+:::
+
+::::
+
+
+---
+
+### A zoom in: Token Merging (ToMe)
+
+::::{.columns}
+:::{.column width="50%"}
+![](vision_transformer.webp){.absolute width=500}
+:::
+
+:::{.column width="50%" .r-fit-text}
+Vision Transformers (ViTs) are specifically designed for computer vision tasks. 
+
+Key components include:
+
+- Patch embedding - fixed-size patches linearly embdeed into a vector
+- Positional embeddings - added to each patch to preserve spatial information
+- Transformer encoder - Fed into standard encoder, no decoder interaction
+- Classification token - learnt token added to the sequence with the encoder output used as input to the final classification head
+
+:::
+::::
+
+:::{.r-fit-text}
+ViTs are more efficient than CNNs, especially for larger images. Self-attention captures global information and contextual relationships between patches. Higher capacity than CNNs
+:::
+
+---
+
+### A zoom in: Token Merging (ToMe) continued
+
+:::{.r-fit-text}
+Paper looks at improving throughput of ViT models without retraining, by gradually combining similar tokens using a fast and lightweight matching algorithm. Evaluated on ImageNet-1K and Kinetics-400 datasets.
+
+![](tome_overview.ppm){.absolute height=300 left="15%"}
+
+:::{.absolute top="75%"}
+- 98% of tokens are gradually removed, reducing computational cost
+- Works across images, videos, and audio
+- Achieves speedup of up to 3x without sacrifing accuracy
+- Outpeforms prior token pruning methods
+:::
+:::
+
+---
+
+### Limitations and open problems
+
+- Transformers have quadratic computational and memory complexities due to modelling arbitrarily long dependencies
+- SATA models simply aim to increase model size, making many real-world applications impractical
+- Problem integrating all modalities without specialising the architecture towards a single one
+- Still a large reliance of huge volumes of labelled training data, ViT-G has employed few-shot learning on ImageNet
+
+---
+
+## T(om)hanks
