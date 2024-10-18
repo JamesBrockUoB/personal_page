@@ -133,6 +133,7 @@ Potential applications
 - Decided on properties of interest to predict on
 - Restricted the scope of project outcome
 - Validated project management approach
+- Putting us in touch with her colleague Sandeep
 :::
 
 
