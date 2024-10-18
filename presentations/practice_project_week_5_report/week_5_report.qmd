@@ -115,7 +115,7 @@ Potential applications
 
 ###  What we've been up to
 
-::: {.nonincremental style="font-size: 75%;"}
+::: {.nonincremental style="font-size: 65%;"}
 - Finished explorative literature review
 - Created a guidance sheet on relevant chemistry knowledge
 - Collected a set of datasets and code to explore
@@ -123,7 +123,7 @@ Potential applications
 - Got further guidance on understanding graphs with Alex
 :::
 
-![](project-plan-screenshot.png){width="1000px" height="400px" fig-align="center"}
+![](project-plan-screenshot.png){width="900px" height="350px" fig-align="center"}
 
 ---
 
