@@ -120,6 +120,7 @@ Potential applications
 - Created a guidance sheet on relevant chemistry knowledge
 - Collected a set of datasets and code to explore
 - Developed a rough timeline and set of deadlines for project planning
+- Got further guidance on understanding graphs with Alex
 :::
 
 ![](project-plan-screenshot.png){width="1000px" height="400px" fig-align="center"}
