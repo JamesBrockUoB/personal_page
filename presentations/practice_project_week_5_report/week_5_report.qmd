@@ -1,0 +1,165 @@
+---
+title: "Practice Projects \n\n Week 5: Progress Report \n\n Materials Project Team"
+format:
+  revealjs: 
+    theme: solarized
+    transition: slide
+---
+
+### Where were we?
+
+Decision time!
+
+::: {.fragment style="font-size: 75%;"}
+Weighed up pros and cons of the two choices
+
+::: {.column width="50%" }
+Thermally stable biopolymers
+
+::: {.column width="50%" }
+Pros
+
+::: {.nonincremental }
+- More ethical applications
+- Plentiful data
+- Methods seem more modern
+:::
+:::
+
+::: {.column width="50%" }
+Cons
+
+::: {.nonincremental }
+
+- Not much expert support
+- Less sense of direction
+- More complex domain space
+
+:::
+:::
+:::
+
+
+::: {.column width="50%" }
+
+High-entropy alloys (HEAs)
+
+::: {.column width="50%" }
+
+Pros
+
+::: {.nonincremental}
+- More expert input
+- Clearer direction for experiments
+:::
+:::
+
+::: {.column width="50%" }
+
+Cons
+
+::: {.nonincremental }
+- Less data and code
+- Not as ethical in applications
+- Methods less exciting
+
+:::
+:::
+:::
+:::
+
+---
+
+### Decided by a coin flip
+
+:::{.fragment .fade-in-then-out}
+![](flip-coin.gif){.absolute width=500 height=500 top="15%" left="25%"}
+:::
+
+::: {.fragment .fade-up}
+Thermally stable biopolymers
+:::
+
+::: {.fragment .fade-down}
+![](biopolymer-chem-structure.png){width="500px" height="550px" fig-align="center"}
+:::
+
+---
+
+### Thermally stable biopolymers
+
+::: {.fragment}
+Definitions
+
+::: {.incremental .r-fit-text}
+- Thermally stable -> Capable of resisting prolonged high temperatures with minimal degradation
+- Polymer -> A substance composed of macromolecules, we are interested in plastic-like polymers
+- Biopolymers -> Polymers made of natural / biodegradade materials that easily break down under certain conditions
+:::
+:::
+
+::: {.fragment}
+Potential applications
+
+![](food-packaging.webp){.absolute width="250px" height="250px" left="0%"}
+
+![](fire-resistant-suit.jpg){.absolute width="250px" height="250px" top="60%" left="25%"}
+
+![](ration-pack.jpg){.absolute width="250px" height="250px"left="50%"}
+
+![](bomb_suit.webp){.absolute width="250px" height="250px" top="60%" left="75%"}
+
+:::
+
+---
+
+###  What we've been up to
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+- Finished explorative literature review
+- Created a guidance sheet on relevant chemistry knowledge
+- Collected a set of datasets and code to explore
+- Developed a rough timeline and set of deadlines for project planning
+:::
+:::
+
+::: {.column width="50%" .fragment .fade-down}
+
+PLACE THE GANTT CHART HERE
+
+:::
+
+---
+
+### Plan going forward
+
+::: {.nonincremental}
+- Start simple and build up, chemistry knowledge needed
+- Learn the intricacies of graphs networks
+- Putting together a user journey to fully inform business understanding
+- Initially just model properties of interest, potentially expand to 3D structures
+- Consulting experts when anticipating future hurdles
+:::
+
+---
+
+### Talk with Katie
+
+- TODO
+
+
+---
+
+### Challenges
+
+- Very open project in terms of direction
+- Cannot indepdently model properties related to thermal stability, degradation is equally important
+- Balancing time for other priorities
+
+---
+
+### Any questions?
+
+---
