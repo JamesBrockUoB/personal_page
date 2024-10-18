@@ -115,47 +115,45 @@ Potential applications
 
 ###  What we've been up to
 
-::: {.column width="50%"}
-
-::: {.nonincremental}
+::: {.nonincremental style="font-size: 75%;"}
 - Finished explorative literature review
 - Created a guidance sheet on relevant chemistry knowledge
 - Collected a set of datasets and code to explore
 - Developed a rough timeline and set of deadlines for project planning
 :::
+
+![](project-plan-screenshot.png){width="1000px" height="400px" fig-align="center"}
+
+---
+
+### Talk with Katie
+
+::: {.nonincremental}
+- Found our specific application -> Food packaging
+- Decided on properties of interest to predict on
+- Restricted the scope of project outcome
+- Validated project management approach
 :::
 
-::: {.column width="50%" .fragment .fade-down}
-
-PLACE THE GANTT CHART HERE
-
-:::
 
 ---
 
 ### Plan going forward
 
 ::: {.nonincremental}
-- Start simple and build up, chemistry knowledge needed
+- Start simple and build up, consolidate chemistry knowledge
 - Learn the intricacies of graphs networks
-- Putting together a user journey to fully inform business understanding
+- Put together a user journey to fully inform business understanding
 - Initially just model properties of interest, potentially expand to 3D structures
-- Consulting experts when anticipating future hurdles
+- Consulting experts when anticipating hurdles
 :::
-
----
-
-### Talk with Katie
-
-- TODO
-
 
 ---
 
 ### Challenges
 
 - Very open project in terms of direction
-- Cannot indepdently model properties related to thermal stability, degradation is equally important
+- Cannot independently model properties related to thermal stability, degradation is equally important
 - Balancing time for other priorities
 
 ---
