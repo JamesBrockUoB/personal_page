@@ -21,13 +21,6 @@
     "text": "Some intuition\n\nWeak supervision: The usage of high-level or noisy data sources as a form of input into ML models\n\nThe goal is to generate large datasets more rapidly than is capable through manual annotation\nUseful for when problems can be solved via lots of imperfect labels rather than small amounts of perfect labels\nAnalysing when, how, and where different labelling functions agree or disagree with eah other to determine when and how much to trust them\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData sources range from high to low quality\nExample domains: Time series analysis, video and image classification, text and document classification\n\n\n\n\nBullet 1: High-level, scalable, but potentially noisy data sources can be combined using multiple sources of supervision\nBullet 2: Useful in applications with frequently changing data distribution shifts, or the need to regularly adapt and iterate, adding new classes or reflect new realities that is too slow to do manually\nBullet 3: Intuition can allow researchers to leverage the highest quality labelling from the different annotators, weighing more trustable sources against weaker ones"
   },
   {
-    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-extra-definitions",
-    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-extra-definitions",
-    "title": "Weak Supervision",
-    "section": "Some extra definitions",
-    "text": "Some extra definitions"
-  },
-  {
     "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#what-weak-supervision-isnt",
     "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#what-weak-supervision-isnt",
     "title": "Weak Supervision",
