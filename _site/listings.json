@@ -7,11 +7,10 @@
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/events.html",
     "items": [
-      "/publications/paper2.html",
-      "/publications/paper.html",
-      "/publications/investigating_temporal_cnns_paper.html"
+      "/events/NeurIPS24.html",
+      "/events/BIAS25.html"
     ]
   },
   {
@@ -22,10 +21,11 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/publications.html",
     "items": [
-      "/events/NeurIPS24.html",
-      "/events/BIAS25.html"
+      "/publications/paper2.html",
+      "/publications/paper.html",
+      "/publications/investigating_temporal_cnns_paper.html"
     ]
   },
   {

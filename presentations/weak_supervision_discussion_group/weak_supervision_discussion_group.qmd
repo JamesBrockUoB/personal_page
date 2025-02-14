@@ -39,10 +39,6 @@ Bullet 2: Useful in applications with frequently changing data distribution shif
 Bullet 3: Intuition can allow researchers to leverage the highest quality labelling from the different annotators, weighing more trustable sources against weaker ones
 :::
 
-## Some extra definitions
-
-
-
 ## What weak supervision isn't {.smaller}
 
 ::: {.columns}
