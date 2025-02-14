@@ -14,44 +14,135 @@
     "text": "I was a member of the organising committee for the annual Bristol Interactive AI Summer School.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "My Publications",
-    "section": "",
-    "text": "I have (co-)authored the following workshop, conference and journal papers. Click through to find out more and see a full citation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Case Study in Practice-Oriented Artificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Methodology for Practice-Oriented AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification\n\n\n\n\n\nSatellite Image Time Series (SITS) of the Earth’s surface provide detailed land cover maps, with their quality in the spatial and temporal dimensions consistently improving. These image time series are integral for developing systems that aim to produce accurate, up-to-date land cover maps of the Earth’s surface. Applications are wide-ranging, with notable examples including ecosystem mapping, vegetation process monitoring and anthropogenic land-use change tracking. Recently proposed methods for SITS classification have demonstrated respectable merit, but these methods tend to lack native mechanisms that exploit the temporal dimension of the data; commonly resulting in extensive data pre-processing contributing to prohibitively long training times. To overcome these shortcomings, Temporal CNNs have recently been employed for SITS classification tasks with encouraging results. This paper seeks to survey this method against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature. Comprehensive experiments are carried out on two benchmark SITS datasets with the results demonstrating that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets, achieving accuracies of 95.0% and 87.3% respectively. Investigations into the Temporal CNN architecture also highlighted the non-trivial task of optimising the model for a new dataset. \n\n\n\n\n\nApr 13, 2022\n\n\nJames Brock, Zahraa Abdallah\n\n\n\n\n\n\nNo matching items"
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-intuition",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-intuition",
+    "title": "Weak Supervision",
+    "section": "Some intuition",
+    "text": "Some intuition\n\nWeak supervision: The usage of high-level or noisy data sources as a form of input into ML models\n\nThe goal is to generate large datasets more rapidly than is capable through manual annotation\nUseful for when problems can be solved via lots of imperfect labels rather than small amounts of perfect labels\nAnalysing when, how, and where different labelling functions agree or disagree with eah other to determine when and how much to trust them\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData sources range from high to low quality\nExample domains: Time series analysis, video and image classification, text and document classification\n\n\n\n\nBullet 1: High-level, scalable, but potentially noisy data sources can be combined using multiple sources of supervision\nBullet 2: Useful in applications with frequently changing data distribution shifts, or the need to regularly adapt and iterate, adding new classes or reflect new realities that is too slow to do manually\nBullet 3: Intuition can allow researchers to leverage the highest quality labelling from the different annotators, weighing more trustable sources against weaker ones"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "AI-Related Projects",
-    "section": "",
-    "text": "Click on one of the headers below to find out about AI-related projects I am or have been involved in.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummer Research Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-extra-definitions",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#some-extra-definitions",
+    "title": "Weak Supervision",
+    "section": "Some extra definitions",
+    "text": "Some extra definitions"
   },
   {
-    "objectID": "projects/summer_project.html",
-    "href": "projects/summer_project.html",
-    "title": "Summer Research Project",
-    "section": "",
-    "text": "At the end of the Foundation Year I carry out a pilot project for the PhD proper. Mine is about …"
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#what-weak-supervision-isnt",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#what-weak-supervision-isnt",
+    "title": "Weak Supervision",
+    "section": "What weak supervision isn’t",
+    "text": "What weak supervision isn’t\n\n\n\nRule-based classifiers: Use rules to perform classification, not just used as labelling functions\n\nCannot generalise outside of the rules defined\nWeak supervision only uses labelling functions to generate labels and then uses ML to classify\n\n\n\n\nSemi-supervised learning (SSL) - Using a small amount of labelled data and lots of unlabelled data for training\n\nPropagates knowledge based on what is already labelled to label more\nWeak supervision allows for knowledge to be injected by what you know to label more\nSSL is akin to smoothing the edges, whereas weak supervision discovers and addresses new uses"
   },
   {
-    "objectID": "publications/paper2.html",
-    "href": "publications/paper2.html",
-    "title": "A Case Study in Practice-Oriented Artificial Intelligence",
-    "section": "",
-    "text": "This journal paper presents a case study in practice-oriented AI…\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nOther, A. N., and S. U. Pervisor. 2024. “A Case Study in Practice-Oriented Artificial Intelligence.” Artificial Intelligence: Theory and Practice 12 (3): 245–60. https://doi.org/10.1234/aitp.2024.0312."
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-case-of-active-learning",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-case-of-active-learning",
+    "title": "Weak Supervision",
+    "section": "The case of active learning",
+    "text": "The case of active learning\nActive learning can be used as a form of SSL\n\nLearner machine iteratively selects data it is most uncertain about / are the most informative\nHuman oracle labels this smaller subset of data, reducing overall amount of data to be manually labelled\nMay introduce bias to the data that the machine learns from"
   },
   {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "AI researchers attend many academic events, such as conferences, workshops, summer schools etc., to advertise their work and learn about the latest developments. Here I keep track of the relevant events I have attended or helped organise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Neural Information Processing Conference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBIAS 2025 Summer School\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-case-of-active-learning-1",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-case-of-active-learning-1",
+    "title": "Weak Supervision",
+    "section": "The case of active learning",
+    "text": "The case of active learning\n\n\n\nActive learning\n\nIncludes labels generated by expensive humans, often SMEs\nLabels assumed to be accurate and single-sourced\nMore expensive labelling process\nIterative process, labelling done in a human-in-the-loop fashion until satisfied\n\n\n\n\nWeak supervision\n\nLabel sources are flexible and often include more than one\nData often inaccurate and incomplete\nCan label up to millions of data points automatically\nWeak supervision models trained fully when all labels gathered\n\n\n\nWeakAL is a new research domain that combines the two"
   },
   {
-    "objectID": "blogposts/post.html",
-    "href": "blogposts/post.html",
-    "title": "Another blogpost example",
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#lets-have-a-go-at-it",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#lets-have-a-go-at-it",
+    "title": "Weak Supervision",
+    "section": "Let’s have a go at it!",
+    "text": "Let’s have a go at it!\n\n\n\n\n\n\n\n\nCrowdsourcing\nAutomatic labelling functions\nMixed level of expert annotation\n\n\n\n\nFirst do a walkthrough of crowdsourcing weak supervision\nThen move onto discussing automatic methods and how to deal with mixed annotation quality levels"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#data-programming",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#data-programming",
+    "title": "Weak Supervision",
+    "section": "Data Programming",
+    "text": "Data Programming\n\n\nA novel paradigm for programmatically creating large labelled training sets using weak supervision, shifting the focus from feature engineering to data set creation\n\nAllows users to express domain heuristics, weak supervision sources, or external knowledge as labelling functions\nNoisy and potentially conflicting programs that label subsets of the data\nDistinct from crowdsourcing and distant supervision\n\nAuthors propose a generative model to label the data in which the accuracies and correlations of the labelling functions are learned to de-noise labels, achieving comparable performance to supervised methods\n\nNoise-aware discriminative loss function able to account for the noise in labels, enabling logistic regression and LSTM model training\nEffective with hand-crafted features and features generated automatically from LSTMs\n\n\n\n\n\nDistant supervision uses existing knowledge bases\nOther approaches leverage a combination of domain-specific patterns and dictionaries\nValidated through a workshop whereby SMEs rapidly adopt the system to quickly build a disease tagging system utilising data programming and no feature engineering"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#data-programming-continued",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#data-programming-continued",
+    "title": "Weak Supervision",
+    "section": "Data programming continued",
+    "text": "Data programming continued\nEven in their simple application of a binary classification task, a complex set of dependencies can be modelling between the labelling functions\n\nUser-defined dependency graphs can be used to help model relationships, but this can become unwieldy\nData programming performance relies on the quality of labelling functions and the specific task and nature of the weak supervision sources involved"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#snorkel-ai",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#snorkel-ai",
+    "title": "Weak Supervision",
+    "section": "Snorkel AI",
+    "text": "Snorkel AI\n\n\nFirst system to employ data programming, allowing users to write labelling functions which are noisy and potentially conflicting\nDenoises labels using a generative model that trains a discriminative model (DNN) on probabilistic labels\nKey innovation is the combining of multiple weak supervision sources with no ground truth"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#snorkel-ai-continued",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#snorkel-ai-continued",
+    "title": "Weak Supervision",
+    "section": "Snorkel AI continued",
+    "text": "Snorkel AI continued\nThere is a trade-off space between accuracy and computational cost - How do we choose an effective modelling strategy?\n\nCan use a heuristic that considers label density, taking expected counts of instances in which a weighted MV could flip the incorrect predictions of unweighted MV under best case - modelling advantage\nHard to define a GM that can account for modelling dependencies between labelling functions\nCan use a psuedolike estimator to compute the objective gradient, requiring a threshold parameter to trade-off between predictive performance and computing cost - hit an elbow point on a graph to estimate\n\n\n\nLow, medium, and high-label density, choose GM for mid-density, and MV for low and high\nIt is impractical to naively include all dependencies of interest as it would take too long, along with maximum likelihood estimation.\nLearned correlations between labelling functions can be selected so only the most valuable are included\nThreshold parameter can be determined before hyperparameter tuning and is much cheaper than maximum likelihood estimation\nVery large threshold values include no correlations in the generative model, decreasing it improves performance until overfitting"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#learning-from-crowds",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#learning-from-crowds",
+    "title": "Weak Supervision",
+    "section": "Learning from Crowds",
+    "text": "Learning from Crowds\n\n\n\nLearning with multiple noisy labels gathered from annotators, often with substantial disagreement\nPropose a probabilistic framework that jointly learns:\n\nA classifier / regressor\nThe accuracy of each annotator\nThe actual hidden true labels\n\nBinary classification problem in which each annotator’s performance is modelled by their sensitivity and specificity (as seen in a mixing matrix)\n\n\n\nExpectation Maximisation (EM) algorithm is used to iteratively estimate the true labels, annotator performance, and classifier parameters\nBayesian approach allows prior knowledge about each annotator’s performance to be incorporated, allowing for a weighting beyond simple majority voting\nPerformance of annotators assumed to be indepedent on instance features, their errors are assumed to be indepedent, and model doesn’t account for varying difficulty of instances\n\n\n\nExamples for annotation frameworks include radiologists providing subjective labels for medical images and crowdsourcing platforms such as AMT (Mechanical Turk)\nUsually classifier and ground truth are learned separately\nFramework can be extended to multi-class classification, ordinal regression, and general regression\nSensitivity - The probability that an annotator correctly labels a positive instance as positive\nSpecificity - The probability that an annotator correctly labels a negative instance as negative\nEM extends beyond the capabilities of maximum likelihood estimation in the case of missing / hidden data\nSome radiologists may be better at detecting certain types of lesions\nAnnotators may be influenced by each other or common biases"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-weak-supervision-landscape",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#the-weak-supervision-landscape",
+    "title": "Weak Supervision",
+    "section": "The Weak Supervision Landscape",
+    "text": "The Weak Supervision Landscape\n\n\n\nFramework for categorising weak supervision settings, focussing on the true label space, weak label space, and the weaking process.\nTrue label space - Describes nature of the task, and the number of labels that can be assigned (multi-label)\nWeak label space - Capture the flexibility in the annotation process\nWeakening process - Describes how true labels are transformed into weak labels\n\n\n\nCompare non-aggregate WS settings to aggregate WS settings - much more non-aggregate WS settings\nNon aggregate settings:\n\nNoisy labels\nPartial labels\nSemi-supervised learning\nPositive-Unlabelled (PU learning)\nMultiple annotators\n\nAggregate settings:\n\nMultiple instance learning (MIL)\nLearning from label proportions (LLP)\n\n\n\n\nWeaking process is the transformation from true labels to weak labels\nNature of task - e.g. binary or multi-class classification\nWeak label space - Aspects such as access to unlabelled data, multiple annotators, ability to assign multiple candidate classes or soft probabilistic models\nWeakening process - Whether the process depends on the instance or the true class, and the degree of aggregation\nPartial labels - annotators provide a set of candidate classes which may or may not include the true label\nPU learning - Only positive and unlabelled instances are available\nMIL - Labels are assigned to bags of instances, indicating whether at least one instance in the bag is positive\nLLP - Labels represent the proportion of each class in a bag of instances"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#i-promised-one-equation",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#i-promised-one-equation",
+    "title": "Weak Supervision",
+    "section": "I promised one equation",
+    "text": "I promised one equation\nMixing matrix - A matrix that models the weakening process, describing the probability of transforming a true label into a weak label\n\nCan be used to reverse the noise process and make learning unbiased via algorithms such as EM, but can be very expensive\nCan also model annotator’s behaviour\n\n\nFor a binary classification problem, the mixing matrix for the \\(j\\)-th annotator is:\n\n(\\(M^j\\)) =\n\\[\\begin{bmatrix}\n\\Pr(y^j = 0 \\mid y = 0) & \\Pr(y^j = 0 \\mid y = 1) \\\\\n\\Pr(y^j = 1 \\mid y = 0) & \\Pr(y^j = 1 \\mid y = 1)\n\\end{bmatrix}\\]\n\n\nThis can be rewritten in terms of the annotator’s specificity (\\(\\beta^j\\)) and sensitivity (\\(\\alpha^j\\)):\n\n(\\(M^j\\)) =\n\\[\\begin{bmatrix}\n\\beta^j & 1 - \\alpha^j \\\\\n1 - \\beta^j & \\alpha^j\n\\end{bmatrix}\\]"
+  },
+  {
+    "objectID": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#and-were-done",
+    "href": "presentations/weak_supervision_discussion_group/weak_supervision_discussion_group.html#and-were-done",
+    "title": "Weak Supervision",
+    "section": "And we’re done!",
+    "text": "And we’re done!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My research in Practice-Oriented Artificial Intelligence",
+    "section": "",
+    "text": "My name is James Brock and I am a PhD student at the UKRI AI Centre for Doctoral Training in Practice-Oriented Artificial Intelligence. This is my professional website where I describe my main research area, ongoing projects, publications, and other AI-related activities.\nI am interested in researching AI solutions for ecological domain related applications, such as wildlife monitoring, predictions and remote sensing. In this capacity, I’d like to expand my interest in machine learning techniques that can reduce the need for labelled training data whilst maintaining respectable accuracy to reduce the costs of applying AI for solving environmental problems.\n\nThis website is authored in Quarto."
+  },
+  {
+    "objectID": "projects/research_project.html",
+    "href": "projects/research_project.html",
+    "title": "Another Project",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "publications/paper.html",
+    "href": "publications/paper.html",
+    "title": "A Methodology for Practice-Oriented AI",
+    "section": "",
+    "text": "This conference paper presents a methodology for developing practice-oriented AI applications…\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nOther, A. N., and S. U. Pervisor. 2022. “A Methodology for Practice-Oriented AI.” In European Conference on Artificial Intelligence, 1234–56."
+  },
+  {
+    "objectID": "publications/investigating_temporal_cnns_paper.html",
+    "href": "publications/investigating_temporal_cnns_paper.html",
+    "title": "Investigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification",
+    "section": "",
+    "text": "This pre-print paper seeks to survey Temporal Convolutional Neural Networks against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature, and demonstrates that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets.\nThis paper comprises part of my Master’s thesis, excluding my investigation into Transfer Learning.\nLink to paper"
+  },
+  {
+    "objectID": "blogposts/another_post.html",
+    "href": "blogposts/another_post.html",
+    "title": "Blogpost Example",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
@@ -63,39 +154,46 @@
     "text": "Practice-oriented AI is about bridging the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains.\nWithin the broad area of practice-oriented AI, my current research interests focus on …\n\nMy current research within the CDT\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nRelevant research I have done previously\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nResearch by others I’m building on\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
   },
   {
-    "objectID": "blogposts/another_post.html",
-    "href": "blogposts/another_post.html",
-    "title": "Blogpost Example",
+    "objectID": "blogposts/post.html",
+    "href": "blogposts/post.html",
+    "title": "Another blogpost example",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "objectID": "publications/investigating_temporal_cnns_paper.html",
-    "href": "publications/investigating_temporal_cnns_paper.html",
-    "title": "Investigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
-    "text": "This pre-print paper seeks to survey Temporal Convolutional Neural Networks against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature, and demonstrates that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets.\nThis paper comprises part of my Master’s thesis, excluding my investigation into Transfer Learning.\nLink to paper"
+    "text": "AI researchers attend many academic events, such as conferences, workshops, summer schools etc., to advertise their work and learn about the latest developments. Here I keep track of the relevant events I have attended or helped organise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Neural Information Processing Conference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBIAS 2025 Summer School\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/paper.html",
-    "href": "publications/paper.html",
-    "title": "A Methodology for Practice-Oriented AI",
+    "objectID": "publications/paper2.html",
+    "href": "publications/paper2.html",
+    "title": "A Case Study in Practice-Oriented Artificial Intelligence",
     "section": "",
-    "text": "This conference paper presents a methodology for developing practice-oriented AI applications…\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nOther, A. N., and S. U. Pervisor. 2022. “A Methodology for Practice-Oriented AI.” In European Conference on Artificial Intelligence, 1234–56."
+    "text": "This journal paper presents a case study in practice-oriented AI…\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nOther, A. N., and S. U. Pervisor. 2024. “A Case Study in Practice-Oriented Artificial Intelligence.” Artificial Intelligence: Theory and Practice 12 (3): 245–60. https://doi.org/10.1234/aitp.2024.0312."
   },
   {
-    "objectID": "projects/research_project.html",
-    "href": "projects/research_project.html",
-    "title": "Another Project",
+    "objectID": "projects/summer_project.html",
+    "href": "projects/summer_project.html",
+    "title": "Summer Research Project",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    "text": "At the end of the Foundation Year I carry out a pilot project for the PhD proper. Mine is about …"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My research in Practice-Oriented Artificial Intelligence",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "AI-Related Projects",
     "section": "",
-    "text": "My name is James Brock and I am a PhD student at the UKRI AI Centre for Doctoral Training in Practice-Oriented Artificial Intelligence. This is my professional website where I describe my main research area, ongoing projects, publications, and other AI-related activities.\nI am interested in researching AI solutions for ecological domain related applications, such as wildlife monitoring, predictions and remote sensing. In this capacity, I’d like to expand my interest in machine learning techniques that can reduce the need for labelled training data whilst maintaining respectable accuracy to reduce the costs of applying AI for solving environmental problems.\n\nThis website is authored in Quarto."
+    "text": "Click on one of the headers below to find out about AI-related projects I am or have been involved in.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummer Research Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "My Publications",
+    "section": "",
+    "text": "I have (co-)authored the following workshop, conference and journal papers. Click through to find out more and see a full citation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Case Study in Practice-Oriented Artificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Methodology for Practice-Oriented AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating Temporal Convolutional Neural Networks for Satellite Image Time Series Classification\n\n\n\n\n\nSatellite Image Time Series (SITS) of the Earth’s surface provide detailed land cover maps, with their quality in the spatial and temporal dimensions consistently improving. These image time series are integral for developing systems that aim to produce accurate, up-to-date land cover maps of the Earth’s surface. Applications are wide-ranging, with notable examples including ecosystem mapping, vegetation process monitoring and anthropogenic land-use change tracking. Recently proposed methods for SITS classification have demonstrated respectable merit, but these methods tend to lack native mechanisms that exploit the temporal dimension of the data; commonly resulting in extensive data pre-processing contributing to prohibitively long training times. To overcome these shortcomings, Temporal CNNs have recently been employed for SITS classification tasks with encouraging results. This paper seeks to survey this method against a plethora of other contemporary methods for SITS classification to validate the existing findings in recent literature. Comprehensive experiments are carried out on two benchmark SITS datasets with the results demonstrating that Temporal CNNs display a superior performance to the comparative benchmark algorithms across both studied datasets, achieving accuracies of 95.0% and 87.3% respectively. Investigations into the Temporal CNN architecture also highlighted the non-trivial task of optimising the model for a new dataset. \n\n\n\n\n\nApr 13, 2022\n\n\nJames Brock, Zahraa Abdallah\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/transformers_discussion_group/transformers_discussion_group.html#tomhanks",
@@ -116,6 +214,6 @@
     "href": "presentations.html",
     "title": "AI-Related Presentations",
     "section": "",
-    "text": "Click on one of the headers below to find out about AI-related presentations I have developed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPractice Projects\nWeek 5: Progress Report\nMaterials Project Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Click on one of the headers below to find out about AI-related presentations I have developed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeak Supervision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPractice Projects\nWeek 5: Progress Report\nMaterials Project Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
